@@ -1,0 +1,29 @@
+{
+  "name": "supermodel-mongoose",
+  "version": "0.0.1",
+  "description": "Mongoose ODM interface for SuperModels",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test istanbul cover _mocha",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "watch": "babel -d lib/ src/ -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethTippetts/supermodel-mongoose.git"
+  },
+  "author": "Seth Tippetts <sethtippetts@gmail.com> (http://sethtippetts.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SethTippetts/supermodel-mongoose/issues"
+  },
+  "homepage": "https://github.com/SethTippetts/supermodel-mongoose#readme",
+  "dependencies": {
+    "change-case": "^2.3.0",
+    "super-model": "0.0.2"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
