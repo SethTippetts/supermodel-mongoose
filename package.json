@@ -1,6 +1,6 @@
 {
   "name": "supermodel-mongoose",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mongoose ODM interface for SuperModels",
   "main": "lib/index.js",
   "scripts": {
